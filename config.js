@@ -19,13 +19,13 @@ global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
 global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
 global.gurl = process.env.GURL  || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643";
 global.website =process.env.GURL|| "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643" ; 
-global.THUMB_IMAGE=process.env.THUMB_IMAGE|| "https://telegra.ph/file/d5b1c3544fedc23e11a06.jpg" ; // SET LOGO FOR IMAGE 
+global.THUMB_IMAGE=process.env.THUMB_IMAGE|| "https://www.google.com/search?q=buruklyn+boyz&client=ms-opera-mini-android&sca_esv=598759438&channel=new&tbm=isch&source=lnms&sa=X&ved=0ahUKEwil08Ka2uGDAxVycvEDHU8_BVsQ_AUIBygC&biw=412&bih=725#" ; // SET LOGO FOR IMAGE 
 
 
 
 
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "+254 722 695736";
 
 module.exports = {
 
@@ -42,7 +42,7 @@ module.exports = {
   author: process.env.PACK_AUTHER || "Suhail-MD",
   packname: process.env.PACK_NAME || "♥️",
   botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "It'x Suhail",
+  ownername:process.env.OWNER_NAME|| "hunter",
 
 
   sessionName:process.env.SESSION_ID|| "",  // PUT SESSION ID HERE 
@@ -60,8 +60,8 @@ readmessage:process.env.READ_MESSAGE|| "false",
 
   REMOVE_BG_KEY : process.env.REMOVE_BG_KEY || "",
   OPENAI_API_KEY: process.env.OPENAI_API_KEY|| "",
-  read_status: process.env.AUTO_READ_STATUS || "false",
-  save_status: process.env.AUTO_SAVE_STATUS || "false",
+  read_status: process.env.AUTO_READ_STATUS || "true",
+  save_status: process.env.AUTO_SAVE_STATUS || "true",
 
 
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
